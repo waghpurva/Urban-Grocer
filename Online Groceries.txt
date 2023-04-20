@@ -61,8 +61,39 @@ b)Human Requirements: BOD
 			Users
 			Marketing Teams		
 			
+8. Business Orientation: The teams are divided as per thier role in the company. The defined roles are as follows:
+Board of Directors: 
+The board of directors are responsible for the overall management and easy functioning of the platform. 
+They will take care of the customer requirements based on the analysis reports.
+The BOD will be responsible for taking appropriate steps for the proper flow of capital.
 
-8. Revenue Generation from application
+Warehouse Managers: 
+The warehouse managers will be hired on contractual basis on the basis of profits made by their respective warehouses.
+They will be responsible for proper functioning of the customer reqests and delivery initiation of ordered items.
+They are responsible for conforming the availability and non availability of the products in the inventory.
+
+Vendors/Wholesellers:
+Vendors are the people whom we will join with our platform for fulfilling the grocery requirements in the inventory.
+As per the requests made by the warehouse managers the vendors are expected to fulfil that requirementrs as soon as possible.
+
+Farmers:
+Our platform will rely on the farmers for the fullfilment of the vegetables and fruits requirements.
+The farmers will be contacted as per the needs in the inventory and as per their availability they will accept the requirement requests or will decline them.
+The products from the farm will directly benefit the farmers as they will be paid as per the rates going on in the market with no commision charged from the company.
+
+Delivery Agents:
+As we start our business we will focus on a collaboration with a delivery firm.
+The firm will provide us delivery agents who will work for us.
+The delivery agents will recieve notifications on thir version of the app regarding the required delivery to be made.
+As per their availability they can accept the request or can decline them.
+The delivery agents will be responsible for making delivery on time and in a safer and hygenic way.
+The delivery agents will collect cash in case of cash on delivery and will submit the payment to the respective warehouse managers
+After the cash payment is recieved the comission of the delivery agents will be initialized as per the ticket size.
+
+
+			
+
+9. Revenue Generation from application
 There are several ways to generate revenue from an online grocery project. Here are some potential revenue streams:
 
 a) Commission on Sales: The platform can charge a commission on each sale made through the platform. This commission can be a percentage of the total sale value, which can generate revenue for the platform.
@@ -78,6 +109,9 @@ e) Data Analytics: The platform can collect data on customer behavior, preferenc
 f) Partnership and Affiliation: The platform can partner with other businesses to provide complementary services such as meal-kit delivery, prepared meals, or restaurant deliveries. A percentage of revenue can be shared between the platform and the partner.
 
 By implementing a combination of these revenue streams, an online grocery platform can generate significant revenue and achieve profitability.
+
+
+
 			
 			
 			
