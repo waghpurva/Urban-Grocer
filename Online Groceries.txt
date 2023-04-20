@@ -60,3 +60,25 @@ b)Human Requirements: BOD
 			Responsive Tech Teams
 			Users
 			Marketing Teams		
+			
+
+8. Revenue Generation from application
+There are several ways to generate revenue from an online grocery project. Here are some potential revenue streams:
+
+a) Commission on Sales: The platform can charge a commission on each sale made through the platform. This commission can be a percentage of the total sale value, which can generate revenue for the platform.
+
+b) Delivery Fees: The platform can charge a delivery fee for each order delivered to the customer. The fee can be based on the distance of the delivery and the order value.
+
+c) Subscription: The platform can offer a subscription service to customers that provides additional benefits, such as free delivery, discounts, or exclusive offers. The subscription fee can be charged on a monthly or yearly basis.
+
+d) Advertising: The platform can generate revenue through advertising by allowing businesses to promote their products or services on the platform. This can be done through banner ads, sponsored content, or other advertising formats.
+
+e) Data Analytics: The platform can collect data on customer behavior, preferences, and purchasing patterns. This data can be analyzed and sold to businesses looking to better understand their target audience.
+
+f) Partnership and Affiliation: The platform can partner with other businesses to provide complementary services such as meal-kit delivery, prepared meals, or restaurant deliveries. A percentage of revenue can be shared between the platform and the partner.
+
+By implementing a combination of these revenue streams, an online grocery platform can generate significant revenue and achieve profitability.
+			
+			
+			
+			
