@@ -1,0 +1,62 @@
+BRS Business requirement Specifications
+
+Name: AllinOne Groceries
+
+Team:   1) Purva
+        2) Ajay
+        3) Pratiyush
+        4) Swapnil
+	5) Nikhil 
+	6) Ganesh
+	7) Piyush
+
+
+keypoints:
+1. Purpose
+2. Client-Customers-Stakeholders
+3. Users
+4. Scope of work
+5. Scope of Product
+6. Features and Functionalities
+7. Usability and Human Requirements
+
+
+1. PURPOSE: To fulfil customeres daily grocery requirements at their doorstep fastest way possibkle with best quality servuice
+
+2. CLIENT-CUSTOMERS-STAKEHIOLDERS: 
+	1) Clients: Wholesellers and Delivery Agents 
+		    (We hire deluivery agents from a compamny or we can hire them directly)
+	2) Customers: Busy working Professionals, Old Age People, Students
+	3) Stakeholders: Board of Directors, Warehouse Managers
+
+3. USERS: Doorstep quality product delivery, Product Variety
+
+4. SCOPE OF WORK: Urban Areas	B to C
+
+5. SCOPE OF PRODUCT: 
+	1. Multilocation Service
+	2. Mobile Ordering
+	3. Scheduled Delivery
+	4. Product lisytings
+	5. Online Payments
+	6. Order History
+	7. Realtime tracking
+	8.Analytics and report
+
+6. Features and Functionality--
+	1.Easy to use and understandable UI
+	2.Easy  Secured Payment Gateway
+	3.Accurate Delivery Tracking
+	4.Repeat Order List
+	5.Discounts Offers\Coupons
+	6.Good Quality Product 
+
+7.Usability & human requirement
+a)Usability : Different Application orientation for user, delivery agents andd stakeholders
+b)Human Requirements: BOD
+			Vendors/Farmers
+			Warehouse Managers
+			Delivery Agents
+			Responsive Tech Teams
+			Users
+			Marketing Teams		
