@@ -106,4 +106,4 @@ The system should use a content delivery network (CDN) to serve static assets.
 
 
 
-</body></html>
+
