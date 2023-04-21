@@ -1,0 +1,201 @@
+Document:System Requirement Specification Document
+
+Title:System Reqruiement Spefication for Online Grocery Website
+
+Team:
+	
+	1) Purva (Team Leader)
+    2) Ajay
+    3) Pratiyush
+    4) Swapnil
+	5) Nikhil 
+	6) Ganesh
+	7) Piyush
+
+Objective (Purpose):
+	The online shopping System for everyday groceries Web Applictaion is intended to be a complete solution
+	for vendors, Consumers, shippers as well as internal users (Staff) through a single Gateway using 
+	internet. It will enable warehouse managers to maintain inventory, Vendors to make the items available, 
+	customers to browse through virtual shop and purchase groceries online without visiting the shop physically.
+	It will also help delivery agents to get details of orders to ship and help for delivering the products.
+
+Scope:
+	This System allows the warehouse managers to maintain thier products for adding or removing from catalog based on
+	their availablity. Customer will be able to review orders history and may able to cancel order within
+	10 minutes after order is placed. Admin will be able to manage customers, vendors,shippers,assistants through admin dashboard.
+	Delivery person will be able to get customers address for deliverinng the products.
+	The System  will be able to show live Business Operation statistics trends through Customized dashboard
+	for stakeholders.
+	The customer will be able to track the products from order confimation to final delivery.
+	The customer will be able to see the product as well as their contents through the online system.
+	The customer will be able to customize their cart as per need or choice.
+
+Definitions:
+	OSS: Online Shopping System
+	QA:  Quality Assurance
+	Portal: Peronalized Online Web Application
+	MIS: Management Information System
+	CRM: Customer Relation Managment
+	BI:  Business Intelligence
+	Dashboard: Personalized information presented using  BI techniques such as grid, score card, graph
+	PDA: Portable Device Application
+	os: Operating System
+	HTML: Hyper Text Markup Language
+	CSS: cascading style shape
+	JS: Javascript
+	COD: Cash on Delivery
+
+
+Requirements:
+
+Functional Requirements:
+
+	Any annonymous User will be able to view different groceries avaialble in their respective location. Any User will be able select product to view
+	from categories avaialble. Staff will be able to approve or reject request for adding or removing products from product
+	catalog. Staff will be able to track and maintain stock of products available. Staff will be able to raise
+	reqests for product updatation from product inventory. Warehouse managers will able to manage the products in catalog.
+	
+	Customers will be able suggest to add new product to product catalog maintained by system.  Sales Team will be able to approve or 
+	reject the requests made by the customers for adding or removing products from product catalog.
+	Warehouse Managers will be able to update  product details which have been already added to product catalog. 
+	Vendors, sales team will be informed well in advaned about low stock or out of stock of products in product catalog.
+	Product listing will be provided based on their category, sale, quantity, season and availability.
+ 
+		Consumer will be able to  add or remove products from shopping cart. System will maintain shopping cart for each consumer to 
+	 maintain list of items selected by him/her. Consumer will be able view all items from shopping cart. Shopping Cart will present
+	 product details, number of items of product selected by consumer with price and total. Consumer will be able to procees for order placement.
+		  
+         Registered Customer will be able place an order with the help of Shopping cart maintained by system. Registered Customer will be 
+	 able to cancel placed order within 10 minutes. Registered customer get orders history. Registered customer can get details of order
+	 and payments done by them. 
+		
+		Sales team will be able get details of orders of a particular Customer. Sales team will be able to cancel, reject or approve 
+	 orders been placed by consumer due to some policies of Business.
+	 BOD will be able to see summary of orders been placed and rejected from Oroder Processing of System. BOD will get Business insight by 
+	 observing daily operations with the of getting orders information.
+		
+   	 Consumer will be provided options for payment such as through internet banking or UPI or Online payment option also COD.
+ 	 Consumer will asked to submit their payment related information. Consumer will be redirected to payment gateway for secure payment
+	 transaction. On successful payment processing using payment gateway, system will notify consumer about transaction and order placement
+	 status along with the cancellation time and estimated delivery time and the cancellation charges if done after the cancellation time has been passed.
+
+         Customer will be able track order status. Customer will be able track deliver using unique dispatcher id presented.
+	 Customer will be able accept or return delivery based on quality received.
+	 Delivery person will be able get delivery details so that he/she can deliver product to customer end.
+	 Delivery person will be able to change the status of product delivered.
+	 Delivery vendor will be able to list all product delivery to be done by their staff.
+	 customers will be able to give their review on products based on the quality and quantity.
+	 customers will be able to give review about the delivery agents based on behavior and time taken.
+	 Sales team will be able to see the reviews on products and take appropriate actions regarding the quality and quantity made by the customers.
+	 sales team will monitor all the reviews about the delivery agents and the award them based on the reviews.
+	 Sales team will be able to monitor shipment done by the warehouse managers.
+	 Sales team will be able to track product delivery for particular customer.
+	
+         Customer will able to  get details about product orders placed.Customer will be able to update his/ her personal information. 
+	 Customer  will be able to manage their profile maintained by system. Customer will be able change their credentails if required. 
+	 Customer will be notified about order status, delivery status through SMS, Email communication.
+	 Customer will get complete information about their orders, and other customer's review details through a dashboard.
+	 Customer will be able to update their payment related information.
+
+		System will present different dashboard for Customers, Vendors, Suppliers as well as BOD.
+	 BOD dashboard will provide information using graph, score cards, key perfomance indicators as well as Grid data prestation.
+	 BOD will be informed about bussiness operations through reports.
+	 Sales team will be able to monitor daily online shopping business activities using thier personalized dashboard.
+	 Customer will be able get thier purchase realted infomation using Customer Dashboard.
+	 Warehouse Managers will be able track the product sale being done through online shopping portal.
+	 System and Technical team ( IT Opertaions team) will be able monitor system operations by monitoring logs maintained.
+        
+		The system will be available 24*7 but the consumers will not be able to make orders after a particular time decided by 
+	their warehouse managers according to their respective area of operation (geograophical).
+	
+NonFunctional Requirement:
+
+	Security
+		Registered Customer will allowed to place an order.	
+		Each stakeholder will be able to access system through authentication process.
+		System will provide access to the content, operations using Role based security (Authorization) (Permissions based on Role)
+		Using SSL in all transactions which will be performed by the stakeholders. It would protect confidential information shared by 
+		stake holder to system.
+		System will automatically log of all stakeholder after some time due to inactiveness.
+		System will block operations for inactive stakeholder and would redirect for authentication.
+		System  will internally maintain secure communiction channel between Servers ( Web Servers, App Servers, databse Server)
+		Sensitive data will be always encrypted across communcation.
+		User proper firewall to protect servers from out side fishing, velnerable attacks.
+
+
+	Reliability
+		The system will backup business data on regular basis and recover in short time duration to keep system operational
+		Continous updates are matained, continous Adminstration is done to keep system operational.
+		During peak hours system will maintain same user experaince by managing load balacning.
+
+	Availability
+		The system will be available for all the time.
+		It can be accessed 24*7 anytime. 
+	
+	Maintainability:
+		A Commercial database software will be used to maintain System data Persistence.
+		A readymade Web Server will be installed to host online shopping portal (Web Site) to management server capabilities.
+		IT operations team will easily monitor and configure System using Adminstrative tools provided by Servers.
+		Separate enviornment will be maintained for system for isolation in production, testing, and development.
+
+	Portablility:
+			PDA: Portable Device Application
+		  System will provide portable User Interface ( HTML, CSS, JS) through  users will be able to access online shopping portal.
+		  System can be deployed to single server, multi server, to any OS, Cloud (Azure or AWS or GCP)
+
+	Accessibility:
+		only registered customer will be able to place an order after authentication.
+		Sales team can reject or approve orders, Warehouse Manager requests based on role provided.
+		BOD team will be able to view daily, weekly, monthly, annual businss Growth throgh customized dashboard.
+		Warehouse Managers will be able to see the product sale graph from their respective inventory. 
+
+	Durability:
+		  System will retain customer billing cart for 15 minutes even though customer loose internet connection and join again.
+		  System will maintain wishlist for customer. customer will be able to add products to wishlist and add then shopping cart whenever needed.
+		  System will implement backup and recovery for retaining stake holders data, bussiness operation data and business data over time.
+
+	Efficiency:
+		on Festival season and holidays, the system will enable maximum number of users to place order, view products with same response time.
+		System will be able to manage all transactions with isolation.
+
+	Modularity:
+		 System will be designed and developed using reusable, independent or dependent business senarios in the form of modules.
+		 These modules will be loosely coupled and highly cohesive.
+		 System will contain CRM, Inventory, shopping cart, vendors, order processing, payment processing, Delivery module, membership and Roles managment 
+		 modules.
+	
+	Scalability:
+		System will be able to provide consistent user exeprience to stake holder as well as vistors irrespective of load.
+		When the users will increase that time the system will adjust according to load, and when customers are les then it will adjust accordingly.
+
+	Safety:
+		
+		online grocery portal will be secure from malicious attack, fishing.
+		online grocery portal functionalilites are protected from outside with prper firewall configuration.
+		online grocery portal will be always kept updated with latest anti virus software.
+		Bussiness data will be backed up periodically to ensure safty of data using increamental back up strategy.
+		Role based security will be applied for Application data and operations accessibility.
+				
+
+Analysis:
+	Actors:
+		visitors
+		Admin
+		customers
+		sales team
+		bod
+		Vendors/Farmers
+		Warehouse Managers
+		Delivery team
+		
+	  identify essential characteristics of online grocery portal
+		we have identified use cases
+
+		1.Product catalog  use case
+		2.Shopping cart  use case
+		3.Oroder Processing use case
+		4.Membership use case
+		5.Payments use case
+		6.Shipment (Delivery) use case 
+		7.Customer Relation Managment (CRM) use case
+		8.Business Intelligence use case
