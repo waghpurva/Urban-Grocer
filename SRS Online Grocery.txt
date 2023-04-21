@@ -1,13 +1,13 @@
 1) Title:System Requirements Specifications for Urban-Grocer (online application for Quality Grocery)
 
 
-2) <b>Description:</b>
+ <b> 2) Description:
 The purpose of this System Requirements Specification (SRS) document is to outline the requirements for an online grocery application. 
 This application will be used by customers to order groceries online and have them delivered to their doorstep.
 The application will also be used by the grocery store to manage orders, inventory, and delivery.
 
 
-3) Scope:
+ <b> 3) Scope:
 a)Customer-facing features:
 The application should provide customers with a user-friendly interface to browse products, place orders, and make payments online.
 Customers should be able to view product details, add products to their cart, choose delivery slots, track deliveries, and provide feedback.
@@ -32,7 +32,7 @@ and technical requirements to ensure a secure, reliable, and scalable applicatio
 The objective of this online grocery application is to provide a convenient and easy-to-use platform for customers to order groceries online and have them delivered to their doorstep. The application aims to provide a hassle-free experience for customers, allowing them to save time and effort by avoiding physical store visits. Additionally, the application aims to help the grocery store manage their inventory, orders, and deliveries more efficiently, reducing manual work and increasing operational efficiency.
 
 
-4) Objective:
+ <b> 4) Objective:
 The specific objectives of this online grocery application are:
 
 To provide customers with a user-friendly interface to browse products, place orders, and make payments online.
@@ -52,7 +52,7 @@ To enable customers to make payments securely online and allow the grocery store
 Overall, the objective of this online grocery application is to provide a convenient, secure, and efficient platform for customers to order groceries online and help the grocery store manage their operations more effectively.
 
 
-5) Functional Requirements:
+<b>  5) Functional Requirements:
 1. User Management:
 The system should allow customers to create accounts, log in, and manage their profiles.
 The system should allow the grocery store to manage user accounts and their privileges.
@@ -76,7 +76,7 @@ The system should allow the grocery store to manage delivery personnel and their
 The system should allow customers to choose delivery slots, track deliveries, and provide feedback.
 The system should allow the grocery store to manage delivery logistics, routes, and optimize delivery schedules.
 
-6) Non-Functional Requirements:
+ <b> 6) Non-Functional Requirements:
 6.1 Performance:
 The system should be able to handle a large number of concurrent users.
 The system should be able to process orders quickly and efficiently.
