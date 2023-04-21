@@ -1,13 +1,12 @@
 1) Title:System Requirements Specifications for Urban-Grocer (online application for Quality Grocery)
 
 
- <b> 2) Description:
+ 2) Description:
 The purpose of this System Requirements Specification (SRS) document is to outline the requirements for an online grocery application. 
 This application will be used by customers to order groceries online and have them delivered to their doorstep.
 The application will also be used by the grocery store to manage orders, inventory, and delivery.
 
-
- <b> 3) Scope:
+3) Scope:
 a)Customer-facing features:
 The application should provide customers with a user-friendly interface to browse products, place orders, and make payments online.
 Customers should be able to view product details, add products to their cart, choose delivery slots, track deliveries, and provide feedback.
