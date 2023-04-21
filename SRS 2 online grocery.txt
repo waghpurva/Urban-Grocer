@@ -1,26 +1,43 @@
 Document:System Requirement Specification Document
 
-Title:System Reqruiement Spefication for Online Grocery Website
+Title: System Requirements Specifications for Urban-Grocer (online application for Quality Grocery) 
 
 Team:
 	
-	1) Purva (Team Leader)
+    1) Purva (Team Leader)
     2) Ajay
     3) Pratiyush
     4) Swapnil
-	5) Nikhil 
-	6) Ganesh
-	7) Piyush
+    5) Nikhil 
+    6) Ganesh
+    7) Piyush
 
-Objective (Purpose):
-	The online shopping System for everyday groceries Web Applictaion is intended to be a complete solution
-	for vendors, Consumers, shippers as well as internal users (Staff) through a single Gateway using 
-	internet. It will enable warehouse managers to maintain inventory, Vendors to make the items available, 
-	customers to browse through virtual shop and purchase groceries online without visiting the shop physically.
-	It will also help delivery agents to get details of orders to ship and help for delivering the products.
+ 2) Description: 
+The purpose of this System Requirements Specification (SRS) document is to outline the requirements for an online grocery application. 
+This application will be used by customers to order groceries online and have them delivered to their doorstep.
+The application will also be used by the grocery store to manage orders, inventory, and delivery.
 
-Scope:
-	This System allows the warehouse managers to maintain thier products for adding or removing from catalog based on
+
+3) Scope:
+a)Customer-facing features:
+The application should provide customers with a user-friendly interface to browse products, place orders, and make payments online.
+Customers should be able to view product details, add products to their cart, choose delivery slots, track deliveries, and provide feedback.
+The application should also allow customers to manage their profiles, view order history, and receive notifications about order status updates.
+
+b) Grocery store-facing features:
+The application should provide the grocery store with a backend system to manage products, inventory, orders, payments, and deliveries.
+The grocery store should be able to update product details, manage product categories, set prices, and manage inventory levels.
+The grocery store should also be able to manage orders, assign delivery personnel, and track deliveries in real-time.
+The grocery store should be able to manage payments, view transactions, and generate reports.
+
+c) Technical requirements:
+The application should be built using modern frontend and backend technologies, scalable infrastructure, and best practices.
+The application should be secure, reliable, and able to handle high traffic volumes.
+The application should be hosted on a cloud infrastructure provider, use load balancers and auto-scaling, and implement backup and recovery mechanisms.
+The scope of this application does not include physical delivery logistics, as this will be handled by the grocery store or a third-party delivery service. 
+The scope also does not include any physical inventory management systems or hardware.
+
+This System allows the warehouse managers to maintain thier products for adding or removing from catalog based on
 	their availablity. Customer will be able to review orders history and may able to cancel order within
 	10 minutes after order is placed. Admin will be able to manage customers, vendors,shippers,assistants through admin dashboard.
 	Delivery person will be able to get customers address for deliverinng the products.
@@ -29,6 +46,30 @@ Scope:
 	The customer will be able to track the products from order confimation to final delivery.
 	The customer will be able to see the product as well as their contents through the online system.
 	The customer will be able to customize their cart as per need or choice.
+
+In summary, the scope of this online grocery application includes customer-facing features, grocery store-facing features, 
+and technical requirements to ensure a secure, reliable, and scalable application.
+
+The objective of this online grocery application is to provide a convenient and easy-to-use platform for customers to order groceries online and have them delivered to their doorstep. The application aims to provide a hassle-free experience for customers, allowing them to save time and effort by avoiding physical store visits. Additionally, the application aims to help the grocery store manage their inventory, orders, and deliveries more efficiently, reducing manual work and increasing operational efficiency.
+
+
+	
+4) Objective (Purpose):
+	The online shopping System for everyday groceries Web Applictaion is intended to be a complete solution
+	for vendors, Consumers, shippers as well as internal users (Staff) through a single Gateway using 
+	internet. It will enable warehouse managers to maintain inventory, Vendors to make the items available, 
+	customers to browse through virtual shop and purchase groceries online without visiting the shop physically.
+	It will also help delivery agents to get details of orders to ship and help for delivering the products.
+The specific objectives of this online grocery application are:
+
+1)To provide customers with a user-friendly interface to browse products, place orders, and make payments online.
+2)To provide the grocery store with a backend system to manage products, inventory, orders, payments, and deliveries.
+3)To enable customers to view product details, add products to their cart, choose delivery slots, track deliveries, and provide feedback.
+4)To enable the grocery store to update product details, manage product categories, set prices, and manage inventory levels.
+5)To enable customers to manage their profiles, view order history, and receive notifications about order status updates.
+6)To enable the grocery store to manage orders, assign delivery personnel, and track deliveries in real-time.
+7)To enable customers to make payments securely online and allow the grocery store to manage payments, view transactions, and generate reports.
+Overall, the objective of this online grocery application is to provide a convenient, secure, and efficient platform for customers to order groceries online and help the grocery store manage their operations more effectively.
 
 Definitions:
 	OSS: Online Shopping System
@@ -48,7 +89,28 @@ Definitions:
 
 Requirements:
 
-Functional Requirements:
+Functional Requirements:1. User Management:
+The system should allow customers to create accounts, log in, and manage their profiles.
+The system should allow the grocery store to manage user accounts and their privileges.
+
+2 Product Management:
+The system should allow the grocery store to manage their product inventory.
+The system should allow customers to browse products, view details, and add them to their cart.
+The system should allow customers to search for products by name, category, and price.
+
+3 Order Management:
+The system should allow customers to place orders, view order history, and track orders.
+The system should allow the grocery store to manage orders, assign delivery personnel, and update order status.
+
+4 Payment Management:
+The system should allow customers to make payments online securely.
+The system should integrate with payment gateways to process payments.
+The system should allow the grocery store to manage payments, view transactions, and generate reports.
+
+5 Delivery Management:
+The system should allow the grocery store to manage delivery personnel and their schedules.
+The system should allow customers to choose delivery slots, track deliveries, and provide feedback.
+The system should allow the grocery store to manage delivery logistics, routes, and optimize delivery schedules.
 
 	Any annonymous User will be able to view different groceries avaialble in their respective location. Any User will be able select product to view
 	from categories avaialble. Staff will be able to approve or reject request for adding or removing products from product
@@ -176,6 +238,22 @@ NonFunctional Requirement:
 		Bussiness data will be backed up periodically to ensure safty of data using increamental back up strategy.
 		Role based security will be applied for Application data and operations accessibility.
 				
+	 Technology Requirements :
+	1. Backend:
+	The system should use a reliable and scalable backend framework.
+	The system should use a robust database management system.
+	The system should use a message broker to handle asynchronous tasks.
+
+	2. Frontend:
+	The system should use a modern frontend framework for responsive design.
+	The system should use a mobile-first design approach.
+	The system should use a responsive design for various screen sizes.
+
+	3. Infrastructure:
+	The system should be hosted on a reliable cloud infrastructure provider.
+	The system should use load balancers and auto-scaling to handle traffic spikes.
+	The system should use a content delivery network (CDN) to serve static assets.
+
 
 Analysis:
 	Actors:
